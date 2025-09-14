@@ -36,9 +36,28 @@ public class Main {
         ytSite.open();
         newsSite.printItems();
 
+//        char a = 'a', b, c = 'c';
+//        b = (char) ((a + c) / 2); // Можно складывать, вычитать, делить и умножать
+//        // Но из-за особенностей арифметики Java результат приходится приводить к типу char явно
+//        System.out.println(b); // Выведет символ 'b'
+
+        String a = "Hello", b = "World";
+        System.out.println(a + " " + b); // Здесь + означает объединение (конкатенацию) строк
+        // Пробел не вставляется автоматически
+
+//        String foo = "a string";
+//        String bar = "a string"; // bar будет указывать на тот же объект что и foo
+//        String baz = new String("a string"); // Чтобы гарантированно создать новую строку надо вызвать конструктор
+//        System.out.println("foo == bar ? " + (foo == bar)); // == сравнивает ссылки на объекты
+//        System.out.println("foo равен bar ? " + (foo.equals(bar))); // Метод equals служит для проверки двух объектов на равенство
+//        System.out.println("foo == baz ? " + (foo == baz));
+//        System.out.println("foo равен baz ? " + (foo.equals(baz)));
+        
 //        boolean isSiteFunny = newsSite.isThisSiteIsFunny();
 //        System.out.println(isSiteFunny);
 //        System.out.println(newsSite.viewCount);
 //        System.out.println(ytSite.viewCount) ;
+
+//        }
     }
 }
